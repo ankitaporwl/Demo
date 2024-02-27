@@ -10,6 +10,7 @@ void merge(int x[],int a[],int m1,int  b[],int m2){
 	while(j<m2)x[k++]=b[j++];
 }
 
+System.out.printn();
 void mergesort(int x[],int n){
 	if(n==1)return;
 	int m1=n/2,i;
